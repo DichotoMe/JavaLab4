@@ -1,0 +1,34 @@
+[
+   {
+      "firstName":"Input",
+      "middleName":"From",
+      "lastName":"Json",
+      "age":112
+   },
+   {
+      "firstName":"Stepan",
+      "middleName":"Olehovych",
+      "lastName":"Koval",
+      "age":21,
+      "phoneNumber":74114141,
+      "countryOfOrigin":"Ukraine",
+      "job":"Software engineer"
+   },
+   {
+      "firstName":"Olena",
+      "middleName":"Andriyivna",
+      "lastName":"Svytiaz",
+      "age":32,
+      "phoneNumber":79009213,
+      "address":"Yangelia street, 20"
+   },
+   {
+      "firstName":"Petro",
+      "middleName":"Ihorovych",
+      "lastName":"Antoniuk",
+      "age":40,
+      "phoneNumber":78990988,
+      "address":"Metalistiv street, 15",
+      "countryOfOrigin":"Monaco"
+   }
+]
