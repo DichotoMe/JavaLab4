@@ -1,0 +1,74 @@
+2019-05-30 15:15:42,093 ERROR controller.Controller.init 
+Message: java.lang.NumberFormatException: For input string: "d"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at util.CommandLineReader.readInteger(CommandLineReader.java:15)
+	at controller.Controller.init(Controller.java:74)
+	at Main.main(Main.java:11)
+
+2019-05-30 15:15:42,093 ERROR controller.Controller.init 
+Message: java.lang.NumberFormatException: For input string: "d"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at util.CommandLineReader.readInteger(CommandLineReader.java:15)
+	at controller.Controller.init(Controller.java:74)
+	at Main.main(Main.java:11)
+
+2019-05-30 15:20:28,229 ERROR controller.Controller.init 
+Message: 
+2019-05-30 15:20:28,229 ERROR controller.Controller.init 
+Message: 
+2019-05-30 15:20:28,233 ERROR controller.Controller.init 
+Message: java.lang.NumberFormatException: For input string: "tf"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at util.CommandLineReader.readInteger(CommandLineReader.java:15)
+	at controller.Controller.init(Controller.java:44)
+	at Main.main(Main.java:11)
+
+2019-05-30 15:20:28,233 ERROR controller.Controller.init 
+Message: java.lang.NumberFormatException: For input string: "tf"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at util.CommandLineReader.readInteger(CommandLineReader.java:15)
+	at controller.Controller.init(Controller.java:44)
+	at Main.main(Main.java:11)
+
+2019-05-30 15:49:10,880 ERROR controller.Controller.init 
+Message: 
+2019-05-30 15:49:10,880 ERROR controller.Controller.init 
+Message: 
+2019-05-30 15:49:28,411 ERROR controller.Controller.init 
+Message: 
+2019-05-30 15:49:28,411 ERROR controller.Controller.init 
+Message: 
+2019-05-30 15:49:46,645 ERROR controller.Controller.init 
+Message: 
+2019-05-30 15:49:46,645 ERROR controller.Controller.init 
+Message: 
+2019-05-30 15:49:55,649 ERROR controller.Controller.init 
+Message: 
+2019-05-30 15:49:55,649 ERROR controller.Controller.init 
+Message: 
+2019-05-30 15:49:55,655 ERROR controller.Controller.init 
+Message: java.lang.NumberFormatException: For input string: "ghfj"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at util.CommandLineReader.readInteger(CommandLineReader.java:15)
+	at controller.Controller.init(Controller.java:42)
+	at Main.main(Main.java:11)
+
+2019-05-30 15:49:55,655 ERROR controller.Controller.init 
+Message: java.lang.NumberFormatException: For input string: "ghfj"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at util.CommandLineReader.readInteger(CommandLineReader.java:15)
+	at controller.Controller.init(Controller.java:42)
+	at Main.main(Main.java:11)
+

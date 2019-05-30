@@ -1,0 +1,62 @@
+<Configuration status="off" strict="true" name="XMLConfigTest"
+               packages="org.apache.logging.log4j.test">
+    <Properties>
+        <Property name="mainLog">files/logs/main.log</Property>
+        <Property name="debugLog">files/logs/debug.log</Property>
+        <Property name="errorLog">files/logs/error.log</Property>
+    </Properties>
+    <Appenders>
+        <Appender type="Console" name="consoleAppender" target="SYSTEM_OUT">
+            <Layout type="PatternLayout" pattern="%m%n"/>
+        </Appender>
+        <Appender type="File" name="errorAppender" fileName="${errorLog}">
+            <Layout type="PatternLayout">
+                <Pattern>%d %p %C.%M %nMessage: %ex%n</Pattern>
+            </Layout>
+            <Filters>
+                <ThresholdFilter level="fatal" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </Appender>
+        <Appender type="File" name="debugAppender" fileName="${debugLog}">
+            <Layout type="PatternLayout">
+                <Pattern>%d %p %C.%M %nMessage: %m%n</Pattern>
+            </Layout>
+            <Filters>
+                <ThresholdFilter level="warn" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="error" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="fatal" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+            </Filters>
+        </Appender>
+        <Appender type="RollingFile"
+                  name="mainAppender"
+                  append="true"
+                  fileName="./files/logs/main/main.log"
+                  filePattern="./files/logs/main/main-%i.log">
+            <Layout type="PatternLayout">
+                <Pattern>%d %p %C.%M %nMessage: %m %ex%n</Pattern>
+            </Layout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="5 KB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="3"/>
+        </Appender>
+    </Appenders>
+    <Loggers>"
+        <Logger level="INFO" name="Console">
+            <AppenderRef ref="consoleAppender"/>
+        </Logger>
+        <Logger level="ERROR" name="Error">
+            <AppenderRef ref="errorAppender"/>
+        </Logger>
+        <Logger level="DEBUG" name="Debug">
+            <AppenderRef ref="debugAppender"/>
+        </Logger>
+        <Root level="all">
+            <AppenderRef ref="mainAppender"/>
+            <AppenderRef ref="debugAppender"/>
+            <AppenderRef ref="errorAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

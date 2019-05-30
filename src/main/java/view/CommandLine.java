@@ -26,14 +26,8 @@ public class CommandLine {
             "Phone number",
             "Address"
     );
-    public static final String INVALID_INPUT = String.format(
-            "%n%s",
-            "Invalid input"
-    );
-    public static final String UNEXPECTED_ERROR = String.format(
-            "%n%s",
-            "Unexpected error"
-    );
+    public static final String INVALID_INPUT = "Invalid input";
+    public static final String UNEXPECTED_ERROR = "Unexpected error";
 
     public static final String EXIT = String.format("%n%s", "Exiting");
 

@@ -1,0 +1,136 @@
+2019-05-30 15:14:48,906 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:14:48,906 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:14:48,911 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:14:48,911 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:15:26,090 DEBUG controller.Controller.init 
+Message: Reading from csv
+2019-05-30 15:15:26,090 DEBUG controller.Controller.init 
+Message: Reading from csv
+2019-05-30 15:15:26,101 DEBUG controller.Controller.init 
+Message: Displayed action picker
+2019-05-30 15:15:26,101 DEBUG controller.Controller.init 
+Message: Displayed action picker
+2019-05-30 15:15:26,105 DEBUG controller.Controller.init 
+Message: Picked an action
+2019-05-30 15:15:26,105 DEBUG controller.Controller.init 
+Message: Picked an action
+2019-05-30 15:15:42,105 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:15:42,105 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:15:42,108 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:15:42,108 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:20:24,047 INFO controller.Controller.init 
+Message: HGHJBK
+2019-05-30 15:20:24,052 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:20:24,052 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:20:24,053 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:20:24,053 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:20:28,243 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:20:28,243 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:20:28,246 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:20:28,246 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:46:55,164 INFO controller.Controller.init 
+Message: HGHJBK
+2019-05-30 15:46:55,170 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:46:55,170 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:46:55,173 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:46:55,173 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:47:23,822 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:47:23,822 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:47:23,828 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:47:23,828 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:49:01,884 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:49:01,884 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:49:01,891 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:49:01,891 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:49:10,876 INFO controller.Controller.init 
+Message: 
+Invalid input
+
+2019-05-30 15:49:10,888 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:49:10,888 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:49:10,892 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:49:10,892 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:49:22,218 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:49:22,218 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:49:22,224 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:49:22,224 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:49:28,410 INFO controller.Controller.init 
+Message: 
+Invalid input
+
+2019-05-30 15:49:28,413 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:49:28,413 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:49:28,414 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:49:28,414 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:49:43,661 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:49:43,661 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:49:43,673 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:49:43,673 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:49:46,644 INFO controller.Controller.init 
+Message: 
+Invalid input
+
+2019-05-30 15:49:46,648 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:49:46,648 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:49:46,649 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:49:46,649 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:49:55,651 INFO controller.Controller.init 
+Message: 
+Invalid input
+
+2019-05-30 15:49:55,667 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:49:55,667 DEBUG controller.Controller.init 
+Message: Displayed input method picker
+2019-05-30 15:49:55,669 DEBUG controller.Controller.init 
+Message: Picked an input method
+2019-05-30 15:49:55,669 DEBUG controller.Controller.init 
+Message: Picked an input method
